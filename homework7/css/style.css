@@ -1,0 +1,59 @@
+.container {
+    border: 3px solid black;
+    height: 500px;
+    width: 1000px;
+}
+
+
+
+.loading {
+    font-family: monospace;
+    color: white;
+    position: absolute;
+    left: 200px;
+    top: 100px;
+    display: block;
+    animation: progress 5s infinite;
+
+}
+
+@keyframes .loading {
+    0% {
+        width: 0%;
+        background: #f9bcca;
+    }
+
+    100% {
+        width: 100%;
+        background: #ffffff;
+        box-shadow: 0 0 40px #ffffff;
+    }
+    
+
+}
+
+.background {
+    background-color:  rgba(192, 71, 71, 0.384);
+    width: 150px;
+    height: 16px;
+    position: absolute;
+    left: 175px;
+    top: 120px
+    
+    
+}
+.movingbar {
+    width: 50px;
+    height: 15px;
+    background-color: white;
+}
+   
+
+.backgroundcolor {
+    width: 500px;
+    height: 250px;
+    background-color: rgb(211, 82, 82) ;
+    
+   
+}
+
